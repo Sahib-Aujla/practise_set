@@ -1,15 +1,14 @@
-
-import './App.css'
-
+import "./App.css";
+import {SplashScreen} from "./components/Animation";
+import Pag1 from "./pages/pag1";
 function App() {
-  
   return (
-    <div className=' bg-red-500 w-[200px] h-[400px] border-green-700 '>
-      <div className=' h-1 text-5xl'>
-        hahaha
-      </div>
+    <div>
+      <SplashScreen />
+      <Pag1 />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
